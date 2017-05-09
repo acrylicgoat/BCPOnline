@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.BCP" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:listViewStyle">@style/ListView</item>
+        <item name="android:actionBarStyle">@style/Widget.BCPTheme.ActionBar</item>
+    </style>
+</resources>

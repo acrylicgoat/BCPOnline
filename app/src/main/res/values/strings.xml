@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BCP Online</string>
+    <string name="menu_bcp">BCP Online</string>
+    <string name="menu_rate">Rate This App</string>
+    <string name="menu_lectionary">Today\'s Lectionary</string>
+    <string name="menu_save">Save</string>
+    <string name="menu_prayerlist">Prayer List</string>
+    <string name="prayerlist_hint">List people, groups or situations to pray for</string>
+    <string name="prayerlist_heading">Prayer List</string>
+    <string name="category">category</string>
+    <string name="category_list">categoryList</string>
+    <string name="category_map">categoryMap</string>
+    <string name="list_position">listPosition</string>
+    <string name="progress">progress</string>
+    <string name="url">url</string>
+    <string name="display">display</string>
+    <string name="daily_office">The Daily Office</string>
+    <string name="collects">Collects</string>
+    <string name="psalter">The Psalter</string>
+    <string name="prayers">Prayers</string>
+    <string name="thanksgivings">Thanksgivings</string>
+    <string name="initial_list">initialList</string>
+    <string name="eucharist">The Holy Eucharist</string>
+</resources>

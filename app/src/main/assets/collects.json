@@ -1,0 +1,60 @@
+{
+  "categoryList":[
+    {
+      "name":"Collects",
+      "url":"http://www.bcponline.org/Collects/collects.html"
+    },
+    {
+      "name":"Various Occations",
+      "url":"http://www.bcponline.org/Collects/variousc.html"
+    },
+    {
+      "name":"Advent",
+      "url":"http://www.bcponline.org/Collects/seasonsc.html#advent"
+    },
+    {
+      "name":"Christmas",
+      "url":"http://www.bcponline.org/Collects/seasonsc.html#christmas"
+    },
+    {
+      "name":"The Epiphany",
+      "url":"http://www.bcponline.org/Collects/seasonsc.html#epiphany"
+    },
+    {
+      "name":"Ash Wednesday",
+      "url":"http://www.bcponline.org/Collects/seasonsc.html#ashw"
+    },
+    {
+      "name":"Lent",
+      "url":"http://www.bcponline.org/Collects/seasonsc.html#lent"
+    },
+    {
+      "name":"Palm Sunday",
+      "url":"http://www.bcponline.org/Collects/seasonsc.html#palmsunday"
+    },
+    {
+      "name":"Holy Week",
+      "url":"http://www.bcponline.org/Collects/seasonsc.html#holyweek"
+    },
+    {
+      "name":"Maundy Thursday",
+      "url":"http://www.bcponline.org/Collects/seasonsc.html#thursday"
+    },
+    {
+      "name":"Good Friday",
+      "url":"http://www.bcponline.org/Collects/seasonsc.html#goodfriday"
+    },
+    {
+      "name":"Easter",
+      "url":"http://www.bcponline.org/Collects/seasonsc.html#easter"
+    },
+    {
+      "name":"Ascension Day",
+      "url":"http://www.bcponline.org/Collects/seasonsc.html#ascension"
+    },
+    {
+      "name":"Pentecost",
+      "url":"http://www.bcponline.org/Collects/seasonsc.html#pentecost"
+    }
+  ]
+}

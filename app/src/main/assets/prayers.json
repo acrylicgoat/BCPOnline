@@ -1,0 +1,249 @@
+{
+  "categoryList":[
+    {
+      "name":"Prayers",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#Prayers"
+    },
+    {
+      "name":"For Joy in God's Creation",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#1"
+    },
+    {
+      "name":"For all Sorts and Conditions of Men",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#2"
+    },
+    {
+      "name":"For the Human Family",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#3"
+    },
+    {
+      "name":"For Peace",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#4"
+    },
+    {
+      "name":"For Peace among the Nations",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#5"
+    },
+    {
+      "name":"For our Enemies",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#6"
+    },
+    {
+      "name":"For the Church",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#7"
+    },
+    {
+      "name":"For the Mission of the Church",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#8"
+    },
+    {
+      "name":"For Clergy and People",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#9"
+    },
+    {
+      "name":"For the Diocese",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#10"
+    },
+    {
+      "name":"For the Parish",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#11"
+    },
+    {
+      "name":"For a Church Convention or Meeting",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#12"
+    },
+    {
+      "name":"For the Election of a Bishop or other Minister",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#13"
+    },
+    {
+      "name":"For the Unity of the Church",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#14"
+    },
+    {
+      "name":"For those about to be Baptized or to renew their Baptismal Covenant",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#15"
+    },
+    {
+      "name":"For Monastic Orders and Vocations",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#16"
+    },
+    {
+      "name":"For Church Musicians and Artists",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#17"
+    },
+    {
+      "name":"For our Country",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#18"
+    },
+    {
+      "name":"For the President of the United States and all in Civil Authority",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#19"
+    },
+    {
+      "name":"For Congress or a State Legislature",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#20"
+    },
+    {
+      "name":"For Courts of Justice",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#21"
+    },
+    {
+      "name":"For Sound Government",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#22"
+    },
+    {
+      "name":"For Local Government",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#23"
+    },
+    {
+      "name":"For an Election",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#24"
+    },
+    {
+      "name":"For those in the Armed Forces of our Country",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#25"
+    },
+    {
+      "name":"For those who Suffer for the sake of Conscience",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#26"
+    },
+    {
+      "name":"For Social Justice",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#27"
+    },
+    {
+      "name":"In Times of Conflict",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#28"
+    },
+    {
+      "name":"For Agriculture",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#29"
+    },
+    {
+      "name":"For the Unemployed",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#30"
+    },
+    {
+      "name":"For Schools and Colleges",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#31"
+    },
+    {
+      "name":"For the Good Use of Leisure",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#32"
+    },
+    {
+      "name":"For Cities",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#33"
+    },
+    {
+      "name":"For Towns and Rural Areas",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#34"
+    },
+    {
+      "name":"For the Poor and Neglected",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#35"
+    },
+    {
+      "name":"For the Oppressed",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#36"
+    },
+    {
+      "name":"For Prisons and Correctional Institutions",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#37"
+    },
+    {
+      "name":"For the Right Use of God's Gifts",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#38"
+    },
+    {
+      "name":"For those who Influence Public Opinion",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#39"
+    },
+    {
+      "name":"For Knowledge of God's Creation",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#40"
+    },
+    {
+      "name":"For the Conservation of Natural Resources",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#41"
+    },
+    {
+      "name":"For the Harvest of Lands and Waters",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#42"
+    },
+    {
+      "name":"For Rain",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#43"
+    },
+    {
+      "name":"For the Future of the Human Race",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#44"
+    },
+    {
+      "name":"For Families",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#45"
+    },
+    {
+      "name":"For the Care of Children",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#46"
+    },
+    {
+      "name":"For Young Persons",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#47"
+    },
+    {
+      "name":"For Those Who Live Alone",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#48"
+    },
+    {
+      "name":"For the Aged",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#49"
+    },
+    {
+      "name":"For a Birthday",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#51"
+    },
+    {
+      "name":"For the Absent",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#52"
+    },
+    {
+      "name":"For Travelers",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#53"
+    },
+    {
+      "name":"For those we Love",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#54"
+    },
+    {
+      "name":"For a Person in Trouble or Bereavement",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#55"
+    },
+    {
+      "name":"For the Victims of Addiction",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#56"
+    },
+    {
+      "name":"For Guidance",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#57"
+    },
+    {
+      "name":"For Quiet Confidence",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#59"
+    },
+    {
+      "name":"For Protection",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#60"
+    },
+    {
+      "name":"A Prayer of Self-Dedication",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#61"
+    },
+    {
+      "name":"A Prayer attributed to St. Francis",
+      "url":"http://www.bcponline.org/Misc/Prayers.html#62"
+    }
+  ]
+}
+

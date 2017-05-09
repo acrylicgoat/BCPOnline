@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <item android:id="@+id/lectionary"
+          android:title="@string/menu_lectionary"
+          android:icon="@drawable/ic_book_white_24dp"
+          app:showAsAction="ifRoom"/>
+    <item android:id="@+id/prayerlist"
+          android:title="@string/menu_prayerlist"
+          android:icon="@drawable/ic_library_books_white_24dp"
+          app:showAsAction="ifRoom"/>
+    <item android:id="@+id/bcp"
+          android:title="@string/menu_bcp"
+          android:icon="@drawable/ic_language_white_24dp"
+          app:showAsAction="ifRoom"/>
+    <item android:id="@+id/rate"
+          android:title="@string/menu_rate"
+          android:icon="@drawable/globe" 
+          app:showAsAction="never"/>
+    
+
+</menu>

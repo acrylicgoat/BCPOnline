@@ -1,0 +1,28 @@
+{
+  "categoryList":[
+    {
+      "name":"The Daily Office",
+      "url":""
+    },
+    {
+      "name":"Collects",
+      "url":""
+    },
+    {
+      "name":"The Psalter",
+      "url":""
+    },
+    {
+      "name":"Prayers",
+      "url":""
+    },
+    {
+      "name":"Thanksgivings",
+      "url":""
+    },
+    {
+      "name":"The Holy Eucharist",
+      "url":""
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "categoryList":[
+    {
+      "name":"The Holy Eucharist",
+      "url":"http://www.bcponline.org/HE/adddirect.html"
+    },
+    {
+      "name":"Holy Eucharist Rite I",
+      "url":"http://www.bcponline.org/HE/he1.html"
+    },
+    {
+      "name":"Holy Eucharist Rite II",
+      "url":"http://www.bcponline.org/HE/he2.html"
+    },
+    {
+      "name":"Eucharistic Prayer B",
+      "url":"http://www.bcponline.org/HE/he2-altgt.html#Eucharistic%20Prayer%20B"
+    },
+    {
+      "name":"Eucharistic Prayer C",
+      "url":"http://www.bcponline.org/HE/he2-altgt.html#Eucharistic%20Prayer%20C"
+    },
+    {
+      "name":"Eucharistic Prayer D",
+      "url":"http://www.bcponline.org/HE/he2-altgt.html#Eucharistic%20Prayer%20D"
+    },
+    {
+      "name":"Prayers of the People",
+      "url":"http://www.bcponline.org/HE/pop.html"
+    }
+  ]
+}

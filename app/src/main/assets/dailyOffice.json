@@ -1,0 +1,36 @@
+{
+  "categoryList":[
+    {
+      "name":"The Daily Office",
+      "url":"http://www.bcponline.org/DailyOffice/dailyoff.html"
+    },
+    {
+      "name":"Daily Morning Prayer: Rite One",
+      "url":"http://www.bcponline.org/DailyOffice/mp1.html"
+    },
+    {
+      "name":"Daily Evening Prayer: Rite One",
+      "url":"http://www.bcponline.org/DailyOffice/ep1.html"
+    },
+    {
+      "name":"Daily Morning Prayer: Rite Two",
+      "url":"http://www.bcponline.org/DailyOffice/mp2.html"
+    },
+    {
+      "name":"Daily Evening Prayer: Rite Two",
+      "url":"http://www.bcponline.org/DailyOffice/ep2.html"
+    },
+    {
+      "name":"Order of Service for Noonday",
+      "url":"http://www.bcponline.org/DailyOffice/noonday.html"
+    },
+    {
+      "name":"An Order of Compline",
+      "url":"http://www.bcponline.org/DailyOffice/compline.html"
+    },
+    {
+      "name":"Daily Devotions",
+      "url":"http://www.bcponline.org/DailyOffice/devotion.html"
+    }
+  ]
+}
