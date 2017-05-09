@@ -7,7 +7,7 @@ BCP Online is an Android app that contains parts of the Episcopal Book of Common
 The BCP Online Android app and Acrylic Goat Software are not affiliated with the Episcopal Church.
 
 
-The code is open source under an LGPL license.  See LICENSE.txt for details. It has a dependency on [ActionbarScherlock](http://actionbarsherlock.com/)
+The code is open source under an LGPL license.  See LICENSE.txt for details.
 
 
 Copyright (C) Acrylic Goat Software
