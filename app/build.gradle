@@ -3,15 +3,15 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "22.0.1"
+    buildToolsVersion '25.0.0'
     project.archivesBaseName = "BCPOnline";
 
     defaultConfig {
         applicationId "com.acrylicgoat.bcponline"
         minSdkVersion 14
         targetSdkVersion 23
-        versionCode 13
-        versionName "2.4"
+        versionCode 14
+        versionName "2.5"
     }
     dependencies {
         compile 'com.android.support:appcompat-v7:23.0.1'
