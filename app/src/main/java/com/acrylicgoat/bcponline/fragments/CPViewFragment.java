@@ -50,7 +50,7 @@ public class CPViewFragment extends Fragment
 
         if(CPUtil.isTabletDevice(getActivity().getWindowManager().getDefaultDisplay(), getActivity()))
         {
-            Log.d("CRViewFragment", "is tablet");
+            //Log.d("CRViewFragment", "is tablet");
             viewer.getSettings().setUseWideViewPort(true);
             viewer.getSettings().setLayoutAlgorithm(LayoutAlgorithm.NARROW_COLUMNS);
         }
@@ -60,20 +60,9 @@ public class CPViewFragment extends Fragment
         }
        
         viewer.setWebViewClient(new WebViewClient() {
-//            @Override
-//            public boolean shouldOverrideUrlLoading(WebView view, String url) 
-//            {
-//                if (url.contains("#") && flag == false) {
-//                    viewer.loadUrl(url);
-//                    flag = true;
-//                } else {
-//                    flag = false;
-//                }
-//                return true;
-//            }
             @Override
             public void onPageFinished(WebView view, String url) {
-            if (Build.VERSION.SDK_INT <= 10 && url.contains("#") && flag == false)
+            if (url.contains("#") && flag == false)
             {
                 //Log.d("CRViewFragment", "Reloading URL");
                 viewer.loadUrl(url);
@@ -94,6 +83,7 @@ public class CPViewFragment extends Fragment
     
     public void updateUrl(final String newUrl) 
     {
+        Log.d("viewer","newURL: " + newUrl);
         if (viewer != null) 
         {
             ContentCache.setObject(getString(R.string.url), newUrl);
