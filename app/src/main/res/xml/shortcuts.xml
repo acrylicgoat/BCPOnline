@@ -1,0 +1,15 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="prayerList"
+        android:enabled="true"
+        android:icon="@drawable/ic_library_books_white_24dp"
+        android:shortcutShortLabel="@string/prayerlist_shortcut_short_label"
+        android:shortcutLongLabel="@string/prayerlist_shortcut_long_label"
+        android:shortcutDisabledMessage="@string/prayerlist_shortcut_disabled_message">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.acrylicgoat.bcponline"
+            android:targetClass="com.acrylicgoat.bcponline.activity.PrayerListActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>

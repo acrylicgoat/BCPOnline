@@ -23,4 +23,7 @@
     <string name="thanksgivings">Thanksgivings</string>
     <string name="initial_list">initialList</string>
     <string name="eucharist">The Holy Eucharist</string>
+    <string name="prayerlist_shortcut_short_label">Pray List</string>
+    <string name="prayerlist_shortcut_long_label">Open Prayer List</string>
+    <string name="prayerlist_shortcut_disabled_message">Shortcut is disabled</string>
 </resources>

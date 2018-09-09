@@ -10,6 +10,7 @@
 
     <application
         android:icon="@drawable/bcp_red"
+        android:roundIcon="@drawable/round_bcp_red"
         android:label="@string/app_name"
         android:theme="@style/Theme.BCP" >
         <activity
@@ -22,6 +23,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            <meta-data android:name="android.app.shortcuts" android:resource="@xml/shortcuts" />
         </activity>
         <activity android:name=".activity.SublistActivity" android:label="@string/app_name" android:theme="@style/Theme.BCP"/>
         <activity android:name=".activity.PrayerListActivity" android:label="@string/app_name" android:theme="@style/Theme.BCP" android:windowSoftInputMode="stateHidden"/>
