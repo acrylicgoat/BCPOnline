@@ -5,6 +5,7 @@
           android:layout_height="match_parent"
           android:padding="10dp"
           android:gravity="bottom"
+          android:textColor="@color/white_text"
           android:textAppearance="?android:attr/textAppearanceMedium"
           android:background="?android:attr/activatedBackgroundIndicator">
 </TextView>
