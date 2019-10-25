@@ -8,7 +8,9 @@ package com.acrylicgoat.bcponline.activity;
 
 import com.acrylicgoat.bcponline.R;
 
+import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
@@ -34,6 +36,7 @@ public class PrayerListActivity extends AppCompatActivity
         aBar = getSupportActionBar();
         aBar.setTitle(getString(R.string.app_name));
         aBar.setIcon(android.R.color.transparent);
+        aBar.setDisplayHomeAsUpEnabled(true);
         note = (EditText) findViewById(R.id.editNotes);
         note.setText(getNote());
        
@@ -62,8 +65,13 @@ public class PrayerListActivity extends AppCompatActivity
     @Override
     public boolean onOptionsItemSelected(MenuItem item)
     {
-        
-        if(item.getItemId() == R.id.save)
+       if(item.getItemId() == android.R.id.home)
+        {
+            Intent mainIntent = new Intent(getApplicationContext(), MainActivity.class);
+            mainIntent.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
+            startActivity(mainIntent);
+        }
+        else if(item.getItemId() == R.id.save)
         {
             saveNote();
             

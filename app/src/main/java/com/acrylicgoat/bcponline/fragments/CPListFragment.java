@@ -86,7 +86,14 @@ public class CPListFragment extends ListFragment
         //get category
         Intent intent = getActivity().getIntent();
         Category category = (Category)intent.getSerializableExtra(getString(R.string.category));
-        contentList = getCategory(category.getName());
+        if(category != null)
+        {
+            contentList = getCategory(category.getName());
+        }
+        else
+        {
+            contentList = new ArrayList<>();
+        }
 
 
         if (savedInstanceState != null)
