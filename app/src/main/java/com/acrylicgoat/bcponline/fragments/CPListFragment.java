@@ -207,6 +207,10 @@ public class CPListFragment extends ListFragment
         {
             cl = readJson("eucharist.json");
         }
+        else if(category.equals(getString(R.string.pastoral)))
+        {
+            cl = readJson("pastoral.json");
+        }
         return cl.getCategoryList();
     }
 

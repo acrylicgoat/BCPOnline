@@ -36,6 +36,7 @@ public class SublistActivity extends AppCompatActivity implements CPListFragment
         super.onCreate(savedInstanceState);
         
         ActionBar actionBar = getSupportActionBar();
+        actionBar.setDisplayHomeAsUpEnabled(true);
         
         Display d = getWindowManager().getDefaultDisplay();
         if(CPUtil.isTabletDevice(d, this))

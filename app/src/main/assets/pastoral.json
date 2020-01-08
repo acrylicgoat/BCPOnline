@@ -1,0 +1,44 @@
+{
+  "categoryList":[
+    {
+      "name":"Confirmation",
+      "url":"https://www.bcponline.org/PastoralOffices/confirmation.html"
+    },
+    {
+      "name":"Celebration and Blessing of a Marriage",
+      "url":"https://www.bcponline.org/PastoralOffices/marriage.html"
+    },
+    {
+      "name":"The Blessing of a Civil Marriage",
+      "url":"https://www.bcponline.org/PastoralOffices/civilmarriage.html"
+    },
+    {
+      "name":"An Order for Marriage",
+      "url":"https://www.bcponline.org/PastoralOffices/an_order_for_marriage.html"
+    },
+    {
+      "name":"Thanksgiving for the Birth or Adoption of a Child",
+      "url":"https://www.bcponline.org/PastoralOffices/childthanks.html"
+    },
+    {
+      "name":"Ministration to the Sick",
+      "url":"https://www.bcponline.org/PastoralOffices/ministration_to_the_sick.html"
+    },
+    {
+      "name":"Ministration at the time of Death",
+      "url":"https://www.bcponline.org/PastoralOffices/death.html"
+    },
+    {
+      "name":"Burial of the Dead: Rite One",
+      "url":"https://www.bcponline.org/PastoralOffices/BurialI.html"
+    },
+    {
+      "name":"Burial of the Dead: Rite Two",
+      "url":"https://www.bcponline.org/PastoralOffices/BurialII.html"
+    },
+    {
+      "name":"An Order for Burial",
+      "url":"https://www.bcponline.org/PastoralOffices/burialorder.html"
+    }
+  ]
+}
