@@ -76,6 +76,10 @@ public class MainRecyclerViewAdapter extends RecyclerView.Adapter<MainRecyclerVi
         {
             viewHolder.logo.setImageResource(R.drawable.ic_list_white_24dp);
         }
+        else if(name.equals(context.getString(R.string.pastoral)))
+        {
+            viewHolder.logo.setImageResource(R.drawable.outline_emoji_people_white_24);
+        }
 
     }
 

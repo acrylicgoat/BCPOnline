@@ -123,48 +123,7 @@ public class MainActivity extends AppCompatActivity
 
     }
     
-//    private void openPlayStore()
-//    {
-//        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=com.acrylicgoat.bcponline")));
-//    }
-    
-//    @Override
-//    protected void onListItemClick(ListView l, View v, int position, long id)
-//    {
-//        String item = (String)getListView().getItemAtPosition(position);
-//        if(item.equals(getString(R.string.daily_office)))
-//        {
-//            ContentCache.setObject(getString(R.string.category),"office");
-//            ContentCache.setObject(getString(R.string.display),getString(R.string.daily_office));
-//        }
-//        else if(item.equals(getString(R.string.collects)))
-//        {
-//            ContentCache.setObject(getString(R.string.category),"collects");
-//            ContentCache.setObject(getString(R.string.display),getString(R.string.collects));
-//        }
-//        else if(item.equals(getString(R.string.psalter)))
-//        {
-//            ContentCache.setObject(getString(R.string.category),"psalter");
-//            ContentCache.setObject(getString(R.string.display),getString(R.string.psalter));
-//        }
-//        else if(item.equals(getString(R.string.prayers)))
-//        {
-//            ContentCache.setObject(getString(R.string.category),"prayers");
-//            ContentCache.setObject(getString(R.string.display),getString(R.string.prayers));
-//        }
-//        else if(item.equals(getString(R.string.thanksgivings)))
-//        {
-//            ContentCache.setObject(getString(R.string.category),"thanksgivings");
-//            ContentCache.setObject(getString(R.string.display),getString(R.string.thanksgivings));
-//        }
-//        else if(item.equals(getString(R.string.eucharist)))
-//        {
-//            ContentCache.setObject(getString(R.string.category),"eucharist");
-//            ContentCache.setObject(getString(R.string.display),getString(R.string.eucharist));
-//        }
-//
-//        startActivity(new Intent(this, SublistActivity.class));
-//    }
+
     
     @Override
     protected void onSaveInstanceState(Bundle outState)
@@ -174,37 +133,5 @@ public class MainActivity extends AppCompatActivity
         outState.putSerializable(getString(R.string.initial_list), initialList);
         
     }
-    
-//    protected void finishedLoadingList()
-//    {
-//        setListAdapter(adapter);
-//        getListView().setSelection(0);
-//        getListView().setSaveEnabled(true);
-//        getListView().setClickable(true);
-//    }
-    
-    /**
-     * Loads data into list view
-     * @param contentList ArrayList<Content>
-     */
-//    private void fillData(ArrayList<String> contentList)
-//    {
-//        //Log.d("LensViewer", "fillData() called");
-//        adapter = new ListAdapter(this, contentList);
-//    }
-    
-//    private void createList()
-//    {
-//        if(initialList == null)
-//        {
-//            initialList = new ArrayList<>();
-//        }
-//        initialList.add(getString(R.string.daily_office));
-//        initialList.add(getString(R.string.collects));
-//        initialList.add(getString(R.string.eucharist));
-//        initialList.add(getString(R.string.psalter));
-//        initialList.add(getString(R.string.prayers));
-//        initialList.add(getString(R.string.thanksgivings));
-//
-//    }
+
 }
