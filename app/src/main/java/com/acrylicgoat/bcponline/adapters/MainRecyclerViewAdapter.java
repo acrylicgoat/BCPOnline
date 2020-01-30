@@ -102,8 +102,8 @@ public class MainRecyclerViewAdapter extends RecyclerView.Adapter<MainRecyclerVi
             super(itemView);
             this.contentList = contentList;
 
-            name = (TextView) itemView.findViewById(R.id.name);
-            logo = (ImageView) itemView.findViewById(R.id.logoView);
+            name = itemView.findViewById(R.id.name);
+            logo = itemView.findViewById(R.id.logoView);
             itemView.setOnClickListener(this);
 
         }

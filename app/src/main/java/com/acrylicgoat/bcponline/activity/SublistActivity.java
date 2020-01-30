@@ -29,14 +29,16 @@ import com.acrylicgoat.bcponline.R;
 public class SublistActivity extends AppCompatActivity implements CPListFragment.OnDDGSelectedListener
 {
     private Category category;
+    private ActionBar actionBar;
 
     @Override
     public void onCreate(Bundle savedInstanceState) 
     {
         super.onCreate(savedInstanceState);
         
-        ActionBar actionBar = getSupportActionBar();
+        actionBar = getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
+
         
         Display d = getWindowManager().getDefaultDisplay();
         if(CPUtil.isTabletDevice(d, this))
@@ -57,13 +59,12 @@ public class SublistActivity extends AppCompatActivity implements CPListFragment
         }
         
         
-        //Log.d("SublistActivity", "category = " + category);
-        actionBar.setTitle(category.getName());
-        actionBar.setDisplayShowHomeEnabled(true);
-        actionBar.setIcon(android.R.color.transparent);
-        ContentCache.setObject(getString(R.string.display), category);
+        if(category != null)
+        {
+            actionBar.setTitle(category.getName());
+            ContentCache.setObject(getString(R.string.display), category);
+        }
 
-        
     }
     
     @Override
@@ -139,7 +140,7 @@ public class SublistActivity extends AppCompatActivity implements CPListFragment
         super.onResume();
         Category category = (Category)ContentCache.getObject(getString(R.string.display));
         
-        ActionBar actionBar = getSupportActionBar();
+        //ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle(category.getName());
     }
     

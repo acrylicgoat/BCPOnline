@@ -27,4 +27,7 @@
     <string name="prayerlist_shortcut_long_label">Open Prayer List</string>
     <string name="prayerlist_shortcut_disabled_message">Shortcut is disabled</string>
     <string name="pastoral">Pastoral Offices</string>
+    <string name="list_saved">List Saved</string>
+    <string name="package_name">com.acrylicgoat.bcponline</string>
+    <string name="prayer_list">prayerlist</string>
 </resources>

@@ -2,10 +2,6 @@
 <resources>
     <color name="color_list_background">#0A2140</color>
     <color name="color_list_background_selected">#0099CC</color>
-    <color name="transparent">#00000000</color>
-    <color name="actionbar_background_light">#ccffffff</color>
-    <color name="actionbar_background_dark">#cc000000</color>
-    <color name="drag_active_color">#80cccccc</color>
     <color name="white_text">#FFFFFF</color>
     <color name="black">#000000</color>
 </resources>
