@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar" />
-
     <style name="ListView" parent="@android:style/Widget.Holo.Light.ListView">
         <item name="android:textColor">@color/white_text</item>
-    </style>
-
-
-    <style name="ActionBar.Light" parent="@style/ActionBar">
-        <item name="android:background">@color/actionbar_background_dark</item>
-        <item name="android:textColor">@color/white_text</item>
-    </style>
-
-    <style name="ActionBar.Dark" parent="@style/ActionBar">
-        <item name="android:background">@color/actionbar_background_dark</item>
-    </style>
-
-    <style name="AppTheme.Light" parent="@android:style/Theme.Holo.Light.DarkActionBar">
-        <item name="android:actionBarStyle">@style/ActionBar.Light</item>
-        
     </style>
     <style name="TextAppearance" parent="android:style/TextAppearance">
         <item name="android:textSize">14sp</item>
@@ -27,18 +10,6 @@
     <style name="TextAppearance.Title">
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">#FFFFFF</item>
-    </style>
-    <style name="TextAppearance.Title.WindowTitle">
-        <item name="android:textColor">#fff</item>
-        <item name="android:textSize">12sp</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="AppTheme.Dark" parent="@android:style/Theme.Holo.Light.DarkActionBar">
-        <item name="android:actionBarStyle">@style/ActionBar.Dark</item>
-        <item name="android:windowActionBarOverlay">true</item>
-        
-        
     </style>
     <style name="LandingTitle">
         <item name="android:textColor">#FFFFFF</item>

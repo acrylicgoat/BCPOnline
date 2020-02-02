@@ -8,7 +8,6 @@ package com.acrylicgoat.bcponline.activity;
 
 import com.acrylicgoat.bcponline.R;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -18,6 +17,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.EditText;
+import android.widget.Toast;
 
 /**
  * @author ed woodward
@@ -81,15 +81,16 @@ public class PrayerListActivity extends AppCompatActivity
     
     private void saveNote()
     {
-        SharedPreferences prefs = this.getSharedPreferences("com.acrylicgoat.bcponline", Context.MODE_PRIVATE);
-        prefs.edit().putString("prayerlist", note.getText().toString()).commit();
+        SharedPreferences prefs = this.getSharedPreferences(getString(R.string.package_name), Context.MODE_PRIVATE);
+        prefs.edit().putString(getString(R.string.prayer_list), note.getText().toString()).apply();
+        Toast.makeText(this, getString(R.string.list_saved), Toast.LENGTH_SHORT).show();
         
     }
     
     private String getNote()
     {
-        SharedPreferences prefs = this.getSharedPreferences("com.acrylicgoat.bcponline", Context.MODE_PRIVATE);
-        return prefs.getString("prayerlist", "");
+        SharedPreferences prefs = this.getSharedPreferences(getString(R.string.package_name), Context.MODE_PRIVATE);
+        return prefs.getString(getString(R.string.prayer_list), "");
         
     }
         
